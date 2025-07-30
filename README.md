@@ -29,18 +29,20 @@ A responsive and efficient Task Management Web App built using **React.js**, **N
 ``` 
 smart-task-manager/
 ├── public/
-├── src/
-│   ├── components/
-│   │   ├── TaskForm.jsx
-│   │   ├── TaskList.jsx
-│   │   ├── TaskCard.jsx
-│   ├── App.jsx
-│   ├── index.js
-│   └── styles/
-│       └── app.css
-├── package.json
-├── README.md
-└── .gitignore 
+│    src/
+│    ├── assets/            ← [optional] Store images, icons, or static files.
+│    ├── components/        ← Reusable UI components (used across pages)
+│    │      ├── Header.js         ← Top bar component
+│    │      ├── Sidebar.js        ← Left-side navigation menu
+│    │      └── TaskCard.js       ← Card-style UI block to show a task
+│    ├── pages/             ← Different screen views/routes
+│       ├── Dashboard.js      ← Home page with task overview
+│       ├── CreateTask.js     ← Page to add a new task
+│       └── Settings.js       ← Page for user settings
+├── App.js             ← Main component where routing and layout happen
+├── App.css            ← Global CSS for styling (used across components)
+└── index.js           ← React entry point (connects to DOM)
+
 ```
 
 ## 📸 Preview
