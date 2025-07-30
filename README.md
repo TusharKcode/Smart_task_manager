@@ -24,6 +24,24 @@ A responsive and efficient Task Management Web App built using **React.js**, **N
 
 ---
 
+## Folder Structure
+
+``` 
+smart-task-manager/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── TaskForm.jsx
+│   │   ├── TaskList.jsx
+│   │   ├── TaskCard.jsx
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles/
+│       └── app.css
+├── package.json
+├── README.md
+└── .gitignore ```
+
 ## 📸 Preview
 
 Coming soon — will add screenshots or GIFs here.
@@ -34,4 +52,4 @@ Coming soon — will add screenshots or GIFs here.
 
 Tushar Kumar
 
-LinkedIN Profile- [https://www.linkedin.com/in/tushar-kumar-developer/]
+LinkedIn Profile- [https://www.linkedin.com/in/tushar-kumar-developer/]
