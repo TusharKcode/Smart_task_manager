@@ -40,7 +40,8 @@ smart-task-manager/
 │       └── app.css
 ├── package.json
 ├── README.md
-└── .gitignore ```
+└── .gitignore 
+```
 
 ## 📸 Preview
 
