@@ -11,16 +11,18 @@ const Sidebar = () => {
             <nav>
                 <ul>
                     <li className={location.pathname === '/' ? 'active' : ''}>
-                        <Link>Dashboard</Link>
+                        <Link to="/">Dashboard</Link>
                     </li>
                     <li className={location.pathname === '/create' ? 'active' : ''}>
-                        <Link>Create Task</Link>
+                        <Link to="/create">Create Task</Link>
                     </li>
                     <li className={location.pathname === '/settings' ? 'active' : ''}>
-                        <Link>Settings</Link>
+                        <Link to="/settings">Settings</Link>
                     </li>
                 </ul>
             </nav>
         </div>
     );
 }
+
+export default Sidebar;
