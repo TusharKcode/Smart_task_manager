@@ -5,13 +5,14 @@ import Sidebar from "./components/Sidebar";
 import Dashboard from "./components/Dashboard";
 import CreateTask from "./components/CreateTask";
 import Settings from "./components/Settings";
+import './App.css';
 
 function App() {
   return (
     <Router>
-      <div className="app-container d-flex">
+
         <Sidebar />
-        <div className="main-content w-100">
+        <div className="main-content">
           <Header />
           <Routes>
             <Route path="/" element={<Dashboard />} />
@@ -19,7 +20,7 @@ function App() {
             <Route path="/settings" element={<Settings />} />
           </Routes>
         </div>
-      </div>
+      
     </Router>
   );
 }
